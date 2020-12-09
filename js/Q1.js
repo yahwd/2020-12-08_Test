@@ -37,6 +37,14 @@ var main = function() {
     ['陸地', '另一艘船', '朝陽', '鯨魚'],
     ['紅色', '橘色', '水藍色', '鯨魚']
   ];
+  var Points = [
+    ['3', '2', '1', '3'],
+    ['4', '1', '3', '2'],
+    ['2', '3', '1', '4'],
+    ['1', '4', '3', '2'],
+    ['1', '3', '2', '4'],
+    ['4', '2', '3', '1']
+  ];
   $(document).ready(function() {
     
     // $('#all').text(all[rQ]);
@@ -44,130 +52,22 @@ var main = function() {
 
     for(var i=0;i<=3;i++){
       $('#opt'+i).text(options[rQ][i]);
-    }
-    // return true;
+    };
+    return false;
+
   });
 
-  if(rQ==0){
-    console.log("111111")
-    if(choice==0){
-      Fp = Fp+3;
-      console.log(Fp)
-    };
-    if(choice==1){
-      Fp = Fp+2;
-      console.log(Fp)
-    };
-    if(choice==2){
-      Fp = Fp+1;
-      console.log(Fp)
-    };
-    if(choice==3){
-      Fp = Fp+4;
-      console.log(Fp)
-    };
+  if(choice<=3){
+    console.log[Points[rQ][choice][choice]]
   }
-  if(rQ==1){
-    console.log("222222")
-    if(choice==0){
-      Fp = Fp+3;
-      console.log(Fp)
-    };
-    if(choice==1){
-      Fp = Fp+2;
-      console.log(Fp)
-    };
-    if(choice==2){
-      Fp = Fp+1;
-      console.log(Fp)
-    };
-    if(choice==3){
-      Fp = Fp+4;
-      console.log(Fp)
-    };
-  }
-  if(rQ==2){
-    console.log("333233")
-    if(choice==0){
-      Fp = Fp+3;
-      console.log(Fp)
-    };
-    if(choice==1){
-      Fp = Fp+2;
-      console.log(Fp)
-    };
-    if(choice==2){
-      Fp = Fp+1;
-      console.log(Fp)
-    };
-    if(choice==3){
-      Fp = Fp+4;
-      console.log(Fp)
-    };
-  }
-  if(rQ==3){
-    console.log("444444")
-    if(choice==0){
-      Fp = Fp+3;
-      console.log(Fp)
-    };
-    if(choice==1){
-      Fp = Fp+2;
-      console.log(Fp)
-    };
-    if(choice==2){
-      Fp = Fp+1;
-      console.log(Fp)
-    };
-    if(choice==3){
-      Fp = Fp+4;
-      console.log(Fp)
-    };
-  }
-  if(rQ==4){
-    console.log("555555")
-    if(choice==0){
-      Fp = Fp+3;
-      console.log(Fp)
-    };
-    if(choice==1){
-      Fp = Fp+2;
-      console.log(Fp)
-    };
-    if(choice==2){
-      Fp = Fp+1;
-      console.log(Fp)
-    };
-    if(choice==3){
-      Fp = Fp+4;
-      console.log(Fp)
-    };
-  }
-  if(rQ==5){
-    console.log("666666")
-    if(choice==0){
-      Fp = Fp+3;
-      console.log(Fp)
-    };
-    if(choice==1){
-      Fp = Fp+2;
-      console.log(Fp)
-    };
-    if(choice==2){
-      Fp = Fp+1;
-      console.log(Fp)
-    };
-    if(choice==3){
-      Fp = Fp+4;
-      console.log(Fp)
-    };
-}
 
 };
 
 $(document).ready(main);
 
-//console.log(all);
+
+console.log(all);
+console.log(Fp);
 
 var Scd = {
   all
