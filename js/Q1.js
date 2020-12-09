@@ -11,8 +11,6 @@ function check() {
 // NewQue = JSON.parse(userJsonStr);
 // console.log(NewQue.Ques);
 
-
-
 var all = [0, 1, 2, 3, 4, 5];
 var rQ = Math.floor(Math.random() * all.length);
 
@@ -70,7 +68,7 @@ var main = function() {
     };
   }
   if(rQ==1){
-    console.log("22222")
+    console.log("222222")
     if(choice==0){
       Fp = Fp+3;
       console.log(Fp)
@@ -89,7 +87,7 @@ var main = function() {
     };
   }
   if(rQ==2){
-    console.log("33333")
+    console.log("333233")
     if(choice==0){
       Fp = Fp+3;
       console.log(Fp)
@@ -127,7 +125,7 @@ var main = function() {
     };
   }
   if(rQ==4){
-    console.log("5555555")
+    console.log("555555")
     if(choice==0){
       Fp = Fp+3;
       console.log(Fp)
@@ -146,7 +144,7 @@ var main = function() {
     };
   }
   if(rQ==5){
-    console.log("66666666")
+    console.log("666666")
     if(choice==0){
       Fp = Fp+3;
       console.log(Fp)
@@ -169,9 +167,7 @@ var main = function() {
 
 $(document).ready(main);
 
-
-console.log(all);
-console.log(Fp);
+//console.log(all);
 
 var Scd = {
   all
